@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html ng-app="myFirstApp">
+<html ng-app='DIApp'>
   <head>
     <meta charset="utf-8">
-    <script src="angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.7.9/angular.min.js"></script>
     <script src="app.js"></script>
-    <title>My First AngularJs App</title>
+    <title>Dependency Injection in Javascript (and AngularJs)</title>
   </head>
   <body>
-    <h1>My First AngularJs App</h1>
-    <div ng-controller="MyFirstController">
-      {{name}}
+    <h1>Dependency Injection in Javascript (and AngularJs)</h1>
+    <div ng-controller='DIController'>
+      <input type="text"
+         ng-model="name">
     </div>
   </body>
 </html>

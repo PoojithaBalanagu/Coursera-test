@@ -1,11 +1,12 @@
 (function () {
 'use strict';
 
-angular.module('myFirstApp', [])
+angular.module('DIApp', [])
+.controller('DIController', DIController);
 
-.controller('MyFirstController', function ($scope) {
-  $scope.name = "ajith";
+function DIController ($scope) {
+  $scope.name = "Poojitha";
 
-});
+}
 
 })();
